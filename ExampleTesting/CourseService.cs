@@ -19,7 +19,7 @@ namespace ExampleTesting
             }
             return valid;
             
-            if (course.price>0)
+            if (course.price<0)
             {
                 valid = false;
             }

@@ -12,7 +12,7 @@ namespace Testing
         public void TestCourse()
         {
             CourseService service = new CourseService();
-            var course = new Course() { name = string.Empty, price = 0,description = string.Empty };
+            var course = new Course() { name = string.Empty, price = 10,description = string.Empty };
             var result = service.IsValid(course);
 
             Assert.False(result);
